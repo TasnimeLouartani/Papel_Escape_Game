@@ -27,7 +27,6 @@ SET time_zone = "+00:00";
 -- Table structure for table `hall_of_fame`
 --
 
-DROP table hall_of_fame;
 CREATE TABLE `hall_of_fame` (
   `pseudo` text NOT NULL,
   `score` time NOT NULL
