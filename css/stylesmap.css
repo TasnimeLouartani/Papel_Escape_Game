@@ -1,0 +1,75 @@
+*{
+  background-color: white;
+}
+
+body {
+  display : grid;
+  grid-template-columns : 10% 1fr 10%; /*TROIS COLONNES*/
+  grid-template-rows: 10% 400px 1fr; /*TROIS LIGNES*/
+}
+
+#map { /*height: 180px;*/
+      grid-column:2;
+      grid-row:2;
+      border-radius: 16px;
+      border: solid 2px black;
+    }
+
+#box { grid-column: 1/4;
+        grid-row: 3;
+        background-color: black;
+        border-radius: 16px;
+    }
+
+#en_tete {/*background-color:black;*/
+          grid-row: 1;
+          grid-column: 1/4;
+}
+
+h1 {
+  /*color:black;
+  display:flex;
+  justify-content:center;*/
+  font-weight: bold;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  background-image: url("../img/money.jpg");
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-weight: bold;
+  -webkit-text-stroke: 3.0px #000000;
+  text-transform: uppercase;
+  -webkit-font-smoothing: antialiased;
+}
+
+#en_tete, img {
+              height:50px;
+}
+
+
+#chrono {
+        position:absolute;
+        text-align: center;
+        color : white;
+        font-size: 20px;
+        background-color : black;
+        border-radius:16px;
+        width:90px;
+        height:40px;
+}
+
+#liste_obj {
+            color:white;
+            background-color: black;
+}
+
+#audio {
+  background-color: none;
+width: 100px;
+height: 30px;
+position:absolute;
+right:10px;
+top:30px;
+}

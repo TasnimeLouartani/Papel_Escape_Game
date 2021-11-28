@@ -1,0 +1,147 @@
+* {
+  background-color: black;
+  font-family: 'Oswald', sans-serif;
+}
+
+a {
+  color:black;
+  background-color: white;
+  text-decoration: none;
+}
+
+body {
+  display : grid;
+  grid-template-rows: 1fr 100px; /*DEUX LIGNES*/
+}
+
+
+h1 {
+  margin-bottom: 150px;
+  background-image: url("../img/money.jpg");
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 16px;
+  font-size: 50px;
+  -webkit-font-smoothing: antialiased;
+}
+#llamas {
+  background-color: black;
+  color : white;
+  font-size: 20px;
+  width: 25%;
+  border-radius: 20px;
+}
+
+#pseudo {
+  background-color: black;
+  color : white;
+  font-size: 16px;
+  width: 25%;
+  border-radius: 16px;
+}
+
+#start {
+  background-color: white;
+  color : black;
+  font-size: 16px;
+  width: 25%;
+  border-radius: 16px;
+}
+#start1 {
+  background-color: grey;
+  color : white;
+  font-size: 16px;
+  width: 25%;
+  border-radius: 16px;
+}
+#start2 {
+  background-color: grey;
+  color : white;
+  font-size: 16px;
+  width: 25%;
+  border-radius: 16px;
+}
+#start3 {
+  background-color: grey;
+  color : white;
+  font-size: 16px;
+  width: 25%;
+  border-radius: 16px;
+}
+#start4 {
+  background-color: grey;
+  color : white;
+  font-size: 16px;
+  width: 25%;
+  border-radius: 16px;
+}
+#start5 {
+  background-color: grey;
+  color : white;
+  font-size: 16px;
+  width: 25%;
+  border-radius: 16px;
+}
+#start6 {
+  background-color: grey;
+  color : white;
+  font-size: 16px;
+  width: 25%;
+  border-radius: 16px;
+}
+#start7 {
+  background-color: grey;
+  color : white;
+  font-size: 16px;
+  width: 25%;
+  border-radius: 16px;
+}
+#start8 {
+  background-color: grey;
+  color : white;
+  font-size: 16px;
+  width: 25%;
+  border-radius: 16px;
+}
+#start9 {
+  background-color: grey;
+  color : white;
+  font-size: 16px;
+  width: 25%;
+  border-radius: 16px;
+}
+#start10 {
+  background-color: grey;
+  color : white;
+  font-size: 16px;
+  width: 25%;
+  border-radius: 16px;
+}
+#start11 {
+  background-color: grey;
+  color : white;
+  font-size: 16px;
+  width: 25%;
+  border-radius: 16px;
+}
+#start12 {
+  background-color: grey;
+  color : white;
+  font-size: 16px;
+  width: 25%;
+  border-radius: 16px;
+}
+#milieu {
+    grid-row: 2;
+    display:flex;
+    justify-content: center;
+}
+#fin {
+    grid-row: 4;
+    display:flex;
+    justify-content: center;
+}

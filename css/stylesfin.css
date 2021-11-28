@@ -1,0 +1,90 @@
+* {
+  background-color: black;
+  font-family: 'Oswald', sans-serif;
+}
+
+a {
+  color:black;
+  background-color: white;
+  text-decoration: none;
+}
+
+body {
+  display : grid;
+  grid-template-rows: 20% 400px 1fr; /*TROIS LIGNES*/
+}
+
+#en_tete {
+  grid-row:1;
+}
+
+h1 {
+  background-image: url("../img/money.jpg");
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 16px;
+  font-size: 50px;
+  -webkit-font-smoothing: antialiased;
+}
+
+#centre {
+    grid-row: 2;
+    height: 300px;
+    margin-top: 50px;
+    display:flex;
+    justify-content: center;
+}
+
+#play {
+      grid-row: 3;
+      display:flex;
+      justify-content: center;}
+
+.bouton {
+        background-color: white;
+        color : black;
+        font-size: 16px;
+        width: 112px;
+        border-radius: 16px;
+}
+
+#audio {
+  background-color: white;
+width: 200px;
+height: 30px;
+position:relative;
+top:60px;
+left:auto;
+}
+
+#prof {
+  border-radius: 16px;
+}
+
+#Hall {
+  font-weight: 900;
+  background-color: black;
+  color:white;
+}
+
+#tabs{
+  font-size: small;
+  text-align: center;
+  position:relative;
+  bottom:500px;
+  width:150px;
+  height:auto;
+  background-color: white;
+  color:black;
+  border-radius: 16px;
+}
+
+#imgsuccess{
+  border-radius: 16px;
+  height: auto;
+  width: 700px;
+}

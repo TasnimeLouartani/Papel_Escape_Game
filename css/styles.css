@@ -1,0 +1,97 @@
+* {
+  background-color: black;
+  font-family: 'Oswald', sans-serif;
+}
+
+a {
+  color:black;
+  background-color: white;
+  text-decoration: none;
+}
+body {
+  display : grid;
+  grid-template-columns : 25% 50% 25%; /*TROIS COLONNES*/
+  grid-template-rows: 20% 400px 1fr; /*TROIS LIGNES*/
+}
+
+#en_tete {
+  grid-row:1;
+  grid-column: 1/4;
+
+}
+
+h1 {
+  background-image: url("../img/money.jpg");
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 16px;
+  font-size: 50px;
+  -webkit-font-smoothing: antialiased;
+}
+
+#centre {
+    grid-column:2;
+    grid-row: 2;
+    display:flex;
+    justify-content: center;
+}
+
+#play {grid-column: 2;
+      grid-row: 3;
+      margin-top: 20px;
+      display:flex;
+      justify-content: center;}
+
+.bouton {
+        background-color: white;
+        color : black;
+        font-size: 16px;
+        width: 50%;
+        border-radius: 16px;
+}
+
+#gauche {
+          grid-column-start: 1;
+          grid-row: 2/4;
+          border-radius: 10px;
+          margin-left: 20px;
+          padding : 10px;
+          text-align: center;
+          background-color:white;
+          background-image: url("../img/money.jpg");
+}
+
+#lehall {
+  color:black;
+  background-color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+#droite {
+        grid-column: 3;
+        grid-row: 2/4;
+        border-radius: 10px;
+        margin-right: 20px;
+        padding : 10px;
+        text-align: center;
+        background-color:white;
+        background-image: url("../img/money.jpg");
+}
+
+p, droite {
+            color : black;
+            background-color: white;
+}
+#audio {
+  background-color: white;
+width: 200px;
+height: 30px;
+}
+
+.imgtest { width:50px;}
